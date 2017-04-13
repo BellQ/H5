@@ -1,4 +1,6 @@
+
 ## H5 input输入类型
+
   1.Input 类型 - email
   email 类型用于应该包含 e-mail 地址的输入域。
   在提交表单时，会自动验证 email 域的值。
@@ -31,6 +33,7 @@
   search 域显示为常规的文本域。
 
 ## H5 input元素类型
+```HTML
   1.datalist 元素
   datalist 元素规定输入域的选项列表。
   列表是通过 datalist 内的 option 元素创建的。
@@ -42,8 +45,10 @@
   
   3.output 元素
   output 元素用于不同类型的输出，比如计算或脚本输出：
-  
+```  
+  
 ## H5 表单属性
+```HTML
   1.autocomplete 属性
   autocomplete 属性规定 form 或 input 域应该拥有自动完成功能。
   注释：autocomplete 适用于 <form> 标签，以及以下类型的 <input> 标签：text, search, url, telephone, email,       password, datepickers, range 以及 color。
@@ -103,5 +108,5 @@
   12.required 属性
   required 属性规定必须在提交之前填写输入域（不能为空）。
   注释：required 属性适用于以下类型的 <input> 标签：text, search, url, telephone, email, password, date           pickers, number, checkbox, radio 以及 file。
-
+```
 ### 以上是W3C对于表单一些新特性的概述。

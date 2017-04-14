@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .a{
+            font-size:40px;
+        }
+        .b{
+            color:yellow;
+        }
+        .c{
+            background-color:pink;
+        }
+        .cls{
+            background-color: #678;
+        }
+        .cls:hover{
+            background-color: #345;
+        }
+    </style>
+</head>
+<body>
+<ul id="id_ul">
+    <li>第1个li标签</li>
+    <li>第2个li标签</li>
+    <li class="cls">第3个li标签</li>
+    <li class="cls b">第4个li标签</li>
+    <li id="id_li" class="a b c">第5个li标签</li>
+</ul>
+</body>
+</html>
+<script>
+/* querySelector 用于获取单个元素*/
+/*querySelectorAll 表示拿多个元素*/
+//active.classList.toggle(".a")
+/*
+*classList：用于指定的某一个元素，操作类样式。
+* toggle()，括号中，必须带 .
+* add      添加某一个类。
+*remove    移除某一个类。
+*contains 判断是否包含
+* length   个数
+* item(index)，通过索引取拿第几个类
+* dataset["属性名称"]="属性的值" 自定义属性
+* */
+    var lis=document.querySelectorAll(".cls");
+    console.log(lis);
+    for(var i=0;i<lis.length;i++){
+        lis[i].onclick=function(){
+            console.log(this.classList);
+            console.log(this.classList.contains('cls'));
+            this.classList.toggle('a');
+            this.classList.toggle('b');
+
+            if(this.classList.contains('cls')){
+                this.classList.remove("cls")
+            }else{
+                this.classList.add("cls")
+            }
+            console.log(this.classList.item(0));
+        }
+        console.log(i);
+    }
+    var active = document.querySelector('#id_li');
+    console.log(active);
+    active.onclick=function() {
+        console.log(this.classList.toggle("a"));
+        this.classList.remove("b")
+        console.log(this.classList.item(1));
+        this.classList.add("b")
+        console.log(this.classList.item(1));
+        this.dataset["aaa"] = "周杰伦";
+        console.log(this.dataset["aaa"]);
+    }
+</script>

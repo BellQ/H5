@@ -41,7 +41,8 @@
   2.keygen 元素
   keygen 元素的作用是提供一种验证用户的可靠方法。
   keygen 元素是密钥对生成器（key-pair generator）。当提交表单时，会生成两个键，一个是私钥，一个公钥。
-  私钥（private key）存储于客户端，公钥（public key）则被发送到服务器。公钥可用于之后验证用户的客户端证书（client       certificate）。
+  私钥（private key）存储于客户端，公钥（public key）则被发送到服务器。公钥可用于之后验证用户的客户
+  端证书（client certificate）。
   
   3.output 元素
   output 元素用于不同类型的输出，比如计算或脚本输出：
@@ -51,7 +52,8 @@
 ```HTML
   1.autocomplete 属性
   autocomplete 属性规定 form 或 input 域应该拥有自动完成功能。
-  注释：autocomplete 适用于 <form> 标签，以及以下类型的 <input> 标签：text, search, url, telephone, email,       password, datepickers, range 以及 color。
+  注释：autocomplete 适用于 <form> 标签，以及以下类型的 <input> 标签：text, search, url, telephone,
+  email,password, datepickers, range 以及 color。
   
   2.autofocus 属性
   autofocus 属性规定在页面加载时，域自动地获得焦点。
@@ -78,7 +80,8 @@
   
   6.list 属性
   list 属性规定输入域的 datalist。datalist 是输入域的选项列表。
-  注释：list 属性适用于以下类型的 <input> 标签：text, search, url, telephone, email, date pickers, number,       range 以及 color。
+  注释：list 属性适用于以下类型的 <input> 标签：text, search, url, telephone, email, date pickers,
+  number,range 以及 color。
   
   7.min、max 和 step 属性
   min、max 和 step 属性用于为包含数字或日期的 input 类型规定限定（约束）。
@@ -94,7 +97,8 @@
   
   9.novalidate 属性
   novalidate 属性规定在提交表单时不应该验证 form 或 input 域。
-  注释：novalidate 属性适用于 <form> 以及以下类型的 <input> 标签：text, search, url, telephone, email,           password, date pickers, range 以及 color.
+  注释：novalidate 属性适用于 <form> 以及以下类型的 <input> 标签：text, search, url, telephone, 
+  email,password, date pickers, range 以及 color.
   
   10.pattern 属性
   pattern 属性规定用于验证 input 域的模式（pattern）。

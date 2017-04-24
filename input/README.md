@@ -111,6 +111,7 @@
   
   12.required 属性
   required 属性规定必须在提交之前填写输入域（不能为空）。
-  注释：required 属性适用于以下类型的 <input> 标签：text, search, url, telephone, email, password, date           pickers, number, checkbox, radio 以及 file。
+  注释：required 属性适用于以下类型的 <input> 标签：text, search, url, telephone, email, password, 
+  date pickers, number, checkbox, radio 以及 file。
 ```
 ### 以上是W3C对于表单一些新特性的概述。

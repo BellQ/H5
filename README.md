@@ -6,7 +6,8 @@
   1.地理定位
   getCurrentPosition() 方法 - 返回数据
   
-  若成功，则 getCurrentPosition() 方法返回对象。始终会返回 latitude、longitude 以及 accuracy 属性。如果可用，则会返   回其他下面的属性。
+  若成功，则 getCurrentPosition() 方法返回对象。始终会返回 latitude、longitude 以及 accuracy 属性。如果可用，
+  则会返回其他下面的属性。
   
            属性	                             描述
   

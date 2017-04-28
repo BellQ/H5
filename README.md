@@ -101,35 +101,35 @@
                
         方法	                               描述
    
-     drawImage()	                  向画布上绘制图像、画布或视频
+     drawImage()	                    向画布上绘制图像、画布或视频
  
                像素操作
                
          属性	                              描述
     
-     width	                        返回 ImageData 对象的宽度
-     height	                       返回 ImageData 对象的高度
-     data	                         返回一个对象，其包含指定的 ImageData 对象的图像数据
+     width	                          返回 ImageData 对象的宽度
+     height	                         返回 ImageData 对象的高度
+     data	                           返回一个对象，其包含指定的 ImageData 对象的图像数据
  
         方法	                              描述
     
-     createImageData()	            创建新的、空白的 ImageData 对象
-     getImageData()	               返回 ImageData 对象，该对象为画布上指定的矩形复制像素数据
-     putImageData()	               把图像数据（从指定的 ImageData 对象）放回画布上
+     createImageData()	              创建新的、空白的 ImageData 对象
+     getImageData()	                 返回 ImageData 对象，该对象为画布上指定的矩形复制像素数据
+     putImageData()	                 把图像数据（从指定的 ImageData 对象）放回画布上
  
                  合成
                 
         属性	                              描述
 
-     globalAlpha	                  设置或返回绘图的当前 alpha 或透明值
-     globalCompositeOperation	     设置或返回新图像如何绘制到已有的图像上
+     globalAlpha	                    设置或返回绘图的当前 alpha 或透明值
+     globalCompositeOperation	       设置或返回新图像如何绘制到已有的图像上
  
                  其他
                 
         方法	                              描述
     
-     save()	                       保存当前环境的状态
-     restore()	                    返回之前保存过的路径状态和属性
+     save()	                         保存当前环境的状态
+     restore()	                      返回之前保存过的路径状态和属性
      createEvent()	 
      getContext()	 
      toDataURL()	

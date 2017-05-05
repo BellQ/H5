@@ -11,9 +11,9 @@
   
            属性	                             描述
   
-      coords.latitude	              十进制数的纬度
-      coords.longitude	             十进制数的经度
-      coords.accuracy	              位置精度
+      coords.latitude	                十进制数的纬度
+      coords.longitude	               十进制数的经度
+      coords.accuracy	                位置精度
       coords.altitude	                海拔，海平面以上以米计
       coords.altitudeAccuracy     	   位置的海拔精度
       coords.heading	                 方向，从正北开始以度计
